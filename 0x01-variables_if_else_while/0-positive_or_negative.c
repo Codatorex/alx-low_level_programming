@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
@@ -21,5 +20,5 @@ int main(void)
 	else {
 		printf("is zero")
 	}
-	return (0);
+return (0);
 }
