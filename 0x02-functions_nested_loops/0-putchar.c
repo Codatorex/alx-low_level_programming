@@ -1,20 +1,19 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 
-int main() {
-    // Write C code here
+int main(void) {
+    
     int i;
-    char function[] = "i";
-    for (i=0; i < 8; i++)
+    char function[] = "_putchar";
+    for (i = 0; i < 8; i++)
     {
-        if (function[i]==0)
+        if (function[i] == 0)
         {
             break;
         }
         else
-         {
-             putchar(function[i]);
-         }
+        {
+            _putchar(function[i]);
+        }
     }
 
     return 0;
