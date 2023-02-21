@@ -4,7 +4,7 @@
 int main(void)
 {	
 	int i;
-	char function[] = "_putchar";
+	char function[] = "_putchar\n";
 	for (i = 0; i < MAXSTRING; i++)
 		{
 			if (function[i] == 0)
@@ -16,6 +16,5 @@ int main(void)
 				_putchar(function[i]);
 			}
 		}
-		printf("\n");
 		return (0);
 }    
