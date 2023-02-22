@@ -1,20 +1,24 @@
 #include "main.h"
 #define MAXSTRING 80
-
+/*
+* putchar prints one single character
+*
+*/
 int main(void)
 {	
 	int i;
-	char function[] = "_putchar\n";
-	for (i = 0; i < MAXSTRING; i++)
+	char function[] = "_putchar";
+	for(i = 0; i < MAXSTRING; i++)
+	{
+	if (function[i] == 0)
 		{
-			if (function[i] == 0)
-			{
-			       	break;
-			}
-			else
-			{
-				_putchar(function[i]);
-			}
+		break;
 		}
-		return (0);
+		else
+		{
+		_putchar(function[i]);
+		}
+	}
+	_putchar('\n');
+	return (0);
 }    
