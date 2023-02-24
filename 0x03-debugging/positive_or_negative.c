@@ -5,10 +5,10 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Prints a random number and states whether
+ * positive_or_negative - Prints a random number and states whether
  *        it is positive, negative, or zero.
- *
- * Return: Always 0.
+ * @i: the parameter needs to be checked.
+ * Return: positive if it's greater than 0, negative less than 0, 0.
 */
 void positive_or_negative(int i)
 {
