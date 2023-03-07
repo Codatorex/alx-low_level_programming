@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _memset: function that fills memory with a constant byte²
+ * _memset - function that fills memory with a constant byte²
  * @n: parameter needs to be checked
  * @b: parameter needs to be checked
  * @s: parameter needs to be checked
